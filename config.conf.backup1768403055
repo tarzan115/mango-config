@@ -47,8 +47,6 @@ animation_curve_move=0.46,1.0,0.29,1
 animation_curve_tag=0.46,1.0,0.29,1
 animation_curve_close=0.08,0.92,0,1
 animation_curve_focus=0.46,1.0,0.29,1
-animation_curve_opafadeout=0.58,0.98,0.58,0.98
-animation_curve_opafadein=0.46,1.0,0.29,1
 
 # Scroller Layout Setting
 scroller_structs=20
@@ -136,11 +134,8 @@ overlaycolor=0x89aa61ff
 source=./env.conf
 source=./bind.conf
 source=./rule.conf
-source=./monitor.conf
-source=./tag.conf
+
 exec-once=~/.config/mango/autostart.sh
 
 source=./dms/outputs.conf
 source = ./dms/binds.conf
-
-source=./dms/cursor.conf
