@@ -22,4 +22,3 @@ git clone https://github.com/DreamMaoMao/mango-config.git ~/.config/mango
 - alt+q: kill client
 - alt+left/right/up/down: focus direction
 - super+m: quit mango
-
