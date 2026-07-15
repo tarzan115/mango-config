@@ -20,7 +20,7 @@
 |---|---|
 | `SUPER + Enter` | Open terminal (foot) |
 | `SUPER + Space` | App launcher (rofi) |
-| `SUPER + Shift + Enter` | Open browser (Chrome) |
+| `SUPER + Shift + Enter` | Open browser (Firefox) |
 | `SUPER + Ctrl + Enter` | File manager (yazi in foot) |
 
 ## Window Management
@@ -127,6 +127,7 @@
 | Shortcut | Action |
 |---|---|
 | `SUPER + L` | Lock screen (swaylock) |
+| `SUPER + Delete` | Power menu (wlogout) |
 | `SUPER + P` | Toggle monitor (eDP-1) |
 | `SUPER + Shift + P` | Toggle virtual monitor |
 | `SUPER + H` | Toggle waybar |
