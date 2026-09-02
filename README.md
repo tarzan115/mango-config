@@ -17,7 +17,7 @@ git clone https://github.com/DreamMaoMao/mango-config.git ~/.config/mango
 ```
 ## Some Common Default Keybindings
 
-- alt+return: open foot terminal
+- alt+return/open terminal (kitty)
 - alt+space: open rofi launcher
 - alt+q: kill client
 - alt+left/right/up/down: focus direction

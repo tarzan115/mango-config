@@ -18,10 +18,10 @@
 
 | Shortcut | Action |
 |---|---|
-| `SUPER + Enter` | Open terminal (foot) |
+| `SUPER + Enter` | Open terminal (kitty) |
 | `SUPER + Space` | App launcher (rofi) |
 | `SUPER + Shift + Enter` | Open browser (Firefox) |
-| `SUPER + Ctrl + Enter` | File manager (yazi in foot) |
+| `SUPER + Ctrl + Enter` | File manager (yazi in kitty) |
 
 ## Window Management
 
