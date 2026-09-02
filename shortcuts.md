@@ -135,6 +135,15 @@
 | `Ctrl + Alt + \` | Toggle notification center |
 | `SUPER + Shift + R` | Reload config |
 
+## Volume & Brightness
+
+| Shortcut | Action |
+|---|---|
+| `SUPER + F1` | Brightness down |
+| `SUPER + F2` | Brightness up |
+| `SUPER + F3` | Volume down |
+| `SUPER + F4` | Volume up |
+
 ## Hardware Keys
 
 | Shortcut | Action |
