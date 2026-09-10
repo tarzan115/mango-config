@@ -10,8 +10,9 @@
 | `SUPER+ALT` | Resize window |
 | `SUPER+SHIFT+CTRL` | Monitor operations, toggle tag |
 | `SUPER+ALT+SHIFT` | Focus monitor |
-| `ALT` / `CTRL` | Launcher alternates, screenshots, adjacent tags, system |
-| `Print` / `XF86` | Screenshots, hardware keys |
+| `ALT` / `CTRL` | Launcher alternates, adjacent tags, system |
+| `SUPER+SHIFT+S` | Screenshots (DMS) — no Print key on this keyboard |
+| `XF86` | Hardware keys |
 
 Rules applied to make the keymap conflict-free across `dms/binds.conf`
 (DankMaterialShell) and `bind.conf` (extras):
@@ -57,13 +58,13 @@ Rules applied to make the keymap conflict-free across `dms/binds.conf`
 |---|---|
 | `SUPER + Shift + W` | Create window rule (DMS) |
 
-## Screenshots
+## Screenshots (DMS — no Print key, so the cluster is `SUPER+SHIFT+S`)
 
 | Shortcut | Action |
 |---|---|
-| `Print` | Interactive screenshot (DMS) |
-| `Ctrl + Print` | Full screen screenshot (DMS) |
-| `Alt + Print` | Window screenshot (DMS) |
+| `SUPER + Shift + S` | Interactive region screenshot (DMS) |
+| `SUPER + Shift + Ctrl + S` | Full-screen screenshot (DMS) |
+| `SUPER + Shift + Alt + S` | Window screenshot (DMS) |
 
 ## Window Management
 
