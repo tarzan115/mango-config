@@ -1,8 +1,9 @@
 #!/usr/bin/bash
 
-enable=$(wlr-randr --json | jq --arg name "eDP-1" '.[] | select(.name == $name) | .enabled')
-if [ $enable == "true" ]; then
-    wlr-randr --output eDP-1 --off
+output="${MANGO_MONITOR_OUTPUT:-DP-1}"
+enable=$(wlr-randr --json | jq --arg name "$output" '.[] | select(.name == $name) | .enabled')
+if [ "$enable" = "true" ]; then
+    wlr-randr --output "$output" --off
 else
-    wlr-randr --output eDP-1 --on
+    wlr-randr --output "$output" --on
 fi

@@ -7,6 +7,7 @@ find_headless_display() {
 
 # Get the first HEADLESS display
 HEADLESS_DISPLAY=$(find_headless_display)
+PRIMARY_OUTPUT="${MANGO_PRIMARY_OUTPUT:-DP-1}"
 
 if [ -z "$HEADLESS_DISPLAY" ]; then
     mmsg dispatch create_virtual_output
@@ -28,7 +29,7 @@ if [ "$enable" == "true" ]; then
     notify-send "Sunshine off"
     mmsg dispatch destroy_all_virtual_output
     notify-send "Removed virtual monitor"
-    wlr-randr --output eDP-1 --pos 0,0 --scale 1
+    wlr-randr --output "$PRIMARY_OUTPUT" --pos 0,0 --scale 1
 else
     wlr-randr --output "$HEADLESS_DISPLAY" --on
     sunshine &

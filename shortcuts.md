@@ -160,12 +160,9 @@ cycle through 0.5 / 0.8 / 1.0 and the mouse middle-click still sets 0.5.)*
 
 | Shortcut | Action |
 |---|---|
-| `SUPER + Shift + P` | Toggle monitor (eDP-1) |
+| `SUPER + Shift + P` | Toggle monitor (DP-1) |
 | `SUPER + Ctrl + P` | Toggle virtual monitor |
-| `SUPER + Ctrl + H` | Toggle waybar |
 | `SUPER + Delete` | Power menu (wlogout) |
-| `Ctrl + Alt + BackSpace` | Clear notifications |
-| `Ctrl + Alt + \` | Toggle notification center |
 
 ## Volume & Brightness
 
