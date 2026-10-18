@@ -10,12 +10,8 @@ function get_brightness {
 }
 
 function send_notification {
-	DIR=$(dirname "$0")
 	brightness=$(get_brightness)
-	icon_name="${HOME}/.config/rice_assets/Icons/b.png"
-
-	# Send the notification
-	dunstify "Brightness: $brightness%" -h int:value:$brightness -i /usr/share/icons/Adwaita/96x96/status/display-brightness-symbolic.symbolic.png -t 1000 --replace=555 -u low
+	# swayosd handles the on-screen display; dunstify kept for reference only.
 }
 
 case $1 in
