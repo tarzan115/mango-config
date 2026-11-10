@@ -222,3 +222,40 @@ cycle through 0.5 / 0.8 / 1.0 and the mouse middle-click still sets 0.5.)*
 |---|---|
 | `dms/binds.conf` | Launchers, notifications/clipboard/settings, lock, screenshots, focus, swap, workspaces, gaps, window state, media/hardware keys |
 | `bind.conf` | Browser, resize/move/scroller-stack, layouts & tags, monitor ops, system, mouse/axis/gestures |
+
+---
+
+## Feature Extras (added)
+
+| Shortcut | Action |
+|---|---|
+| `Alt + J` | Jump mode (overview with easymotion labels) |
+| `SUPER + Alt + J` / `SUPER + Alt + Shift + J` | Overcircle next / prev (all tags) |
+| `SUPER + Ctrl + J` / `SUPER + Ctrl + Shift + J` | Overcircle next / prev (current tagset) |
+| `Alt + `` ` `` | Switcher next (current tag) |
+| `Alt + Shift + `` ` `` | Switcher prev (current tag) |
+| `SUPER + Alt + `` ` `` | Switcher, all tags on current monitor |
+| `SUPER + Alt + Shift + `` ` `` | Switcher prev, all tags |
+| `SUPER + Ctrl + Alt + `` ` `` | Switcher, all monitors and tags |
+| `SUPER + Ctrl + Alt + Shift + `` ` `` | Switcher prev, all monitors |
+| `Alt + H` | Toggle named scratchpad (kitty + yazi) |
+| `SUPER + Alt + Shift + H / N / K / L` | Join group left / down / up / right |
+| `SUPER + Alt + Shift + F / B` | Focus group next / prev |
+| `SUPER + Alt + Shift + G` | Leave group |
+| `SUPER + Alt + Shift + T` | Toggle group bar |
+| `SUPER + Shift + Ctrl + 0` | Toggle special workspace (tag 0) |
+| `SUPER + Ctrl + Alt + 0` | Move window to/from special workspace |
+| `SUPER + Alt + Shift + 0` | Silently move window to special workspace |
+| `SUPER + Ctrl + Space` | Enter `launch` keymode (`t` terminal, `f` browser, `e` yazi, `Esc` exit) |
+| `SUPER + Ctrl + Q` | Smart kill (only when window is on multiple tags) |
+| `SUPER + Ctrl + C` | Center floating window |
+| `SUPER + Ctrl + [ / ]` | Decrease / increase master factor |
+| `SUPER + Ctrl + A` | Toggle all floating |
+| `SUPER + Ctrl + B` | Toggle border rendering |
+| `SUPER + Alt + O` | Overview (current tagset only) |
+| `SUPER + Alt + Enter` | Dwindle split horizontal |
+| `SUPER + Alt + Shift + Enter` | Dwindle split vertical |
+| `SUPER + Ctrl + K` | Switch keyboard layout |
+| `SUPER + Ctrl + F8` | Toggle trackpad |
+| `SUPER + Ctrl + `` ` `` | Insert empty tag after current |
+| `SUPER + Ctrl + Shift + `` ` `` | Insert empty tag before current |
